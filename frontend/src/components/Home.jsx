@@ -20,9 +20,9 @@ const Home = () => {
             <section className="">
                 <div
                     id="home"
-                    className="container  flex flex-col gap-8  m md:flex-row md:justify-between md:items-center"
+                    className="container  flex flex-col gap-8   md:flex-row justify-around md:items-center"
                 >
-                    <div className=" space-y-6 flex-1 py-12">
+                    <div className=" space-y-6 flex-1 py-12 ">
                         <p className="text-xl  font-medium text-third">
                             Welcome{" "}
                             <span className="text-white">
@@ -58,7 +58,7 @@ const Home = () => {
                     </div>
                     <div className="flex-1">
                         <img
-                            className=" mx-auto "
+                            className=" mx-auto h-[510px]"
                             src={Img}
                             alt="Profile"
                         />
