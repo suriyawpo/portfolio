@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-bg text-white">
+        <div className=" text-white">
             <div className="container pt-4   ">
                 <nav className=" flex justify-between items-center">
                     <div className=" text-4xl font-bold">

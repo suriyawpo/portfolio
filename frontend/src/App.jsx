@@ -10,7 +10,7 @@ import Img from "./components/assets/ss.jpg";
 const App = () => {
     return (
         <>
-            <div className="font-inter tracking-wide bg-black  text-black">
+            <div className="font-inter tracking-wide bg-bgblk  text-black">
                 <Navbar />
                 <Home />
 

@@ -17,7 +17,7 @@ const Home = () => {
 
     return (
         <>
-            <section className="bg-bg text-white">
+            <section className=" text-white">
                 <div
                     id="home"
                     className="md:h-[460px] container  flex items-center flex-col gap-8   md:flex-row justify-around md:items-center"

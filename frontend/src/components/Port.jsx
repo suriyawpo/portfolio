@@ -3,7 +3,7 @@ import React from "react";
 const App = ({ prjt }) => {
     return (
         <>
-            <div className="bg-gray-700 shadow-md shadow-gray-600 rounded-xl text-white p-4 overflow-hidden ">
+            <div className="bg-cd2 shadow-md shadow-gray-600 rounded-xl text-white p-4 overflow-hidden ">
                 <div class="">
                     {" "}
                     <img

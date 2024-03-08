@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <>
-            <div className="bg-gray-800 text-white">
+            <div className=" text-white">
                 <div className="container py-16">
                     <p className="text-2xl font-bold text-center">
                         My{" "}

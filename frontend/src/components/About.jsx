@@ -6,7 +6,7 @@ const App = () => {
         <>
             <section
                 id="about"
-                className=" bg-prm text-white   py-16"
+                className="  text-white   py-16"
             >
                 <div className=" container  mx-auto ">
                     <div className="flex gap-16 flex-col md:justify-between md:items-center md:flex-row">
