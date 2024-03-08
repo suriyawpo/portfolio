@@ -10,13 +10,14 @@ import Img from "./components/assets/ss.jpg";
 const App = () => {
     return (
         <>
-            <div className="font-inter tracking-wide bg-prm text-text">
+            <div className="font-inter tracking-wide bg-black  text-black">
                 <Navbar />
                 <Home />
+
                 <Skills />
                 <About />
-                <img src={Img} />
                 <Portfolio />
+
                 <Contact />
                 <Footer />
             </div>

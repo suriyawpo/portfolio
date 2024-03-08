@@ -17,10 +17,10 @@ const Home = () => {
 
     return (
         <>
-            <section className="">
+            <section className="bg-bg text-white">
                 <div
                     id="home"
-                    className="container  flex flex-col gap-8   md:flex-row justify-around md:items-center"
+                    className="md:h-[460px] container  flex items-center flex-col gap-8   md:flex-row justify-around md:items-center"
                 >
                     <div className=" space-y-6 flex-1 py-12 ">
                         <p className="text-xl  font-medium text-third">
@@ -48,7 +48,7 @@ const Home = () => {
                             design...
                         </p>
                         <button
-                            className={`btn bg-third text-black`}
+                            className={`btn bg-third `}
                             onClick={
                                 handleClick
                             }
@@ -58,7 +58,7 @@ const Home = () => {
                     </div>
                     <div className="flex-1">
                         <img
-                            className=" mx-auto h-[510px]"
+                            className=" mx-auto "
                             src={Img}
                             alt="Profile"
                         />

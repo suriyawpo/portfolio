@@ -1,12 +1,16 @@
 import React from "react";
 import Image from "./assets/contact.png";
+import img from "./assets/bg.jpg";
 import Form from "./Form";
 const App = () => {
     return (
         <>
             <section
+                style={{
+                    backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(${img})`
+                }}
                 id="contact"
-                className="bg-stone-300 text-black"
+                className="bg-right bg-cover bg-no-repeat text-white"
             >
                 <div className="container py-16 ">
                     <div class="w-full flex flex-col  gap-8 md:flex-row items-center justify-between">

@@ -6,11 +6,11 @@ const App = () => {
         <>
             <section
                 id="about"
-                className="bg-gay-700   py-16"
+                className=" bg-prm text-white   py-16"
             >
                 <div className=" container  mx-auto ">
                     <div className="flex gap-16 flex-col md:justify-between md:items-center md:flex-row">
-                        <div className="   rounded-xl bg-thid flex-1">
+                        <div className="   rounded-xl  flex-1">
                             <img
                                 className=""
                                 src={
@@ -62,14 +62,16 @@ const App = () => {
                                 experience.
                             </p>
                             <button
-                                className={`btn bg-third text-black`}
+                                className={`btn bg-third text-white`}
                             >
                                 Read
                                 more
                             </button>
+                            {
+                                //<AboutDetails />
+                            }
                         </div>
                     </div>
-                    <AboutDetails />
                 </div>
             </section>
         </>

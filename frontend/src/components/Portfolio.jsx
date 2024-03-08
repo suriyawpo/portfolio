@@ -22,15 +22,15 @@ const App = () => {
             name: "7Up Website",
             img: prjt2
         },
-                {
+        {
             name: "Tour booking Website",
             img: prjt1
-        },
+        }
     ];
 
     return (
         <>
-            <div className="text-white">
+            <div className="bg-gray-800 text-white">
                 <div className="container py-16">
                     <p className="text-2xl font-bold text-center">
                         My{" "}

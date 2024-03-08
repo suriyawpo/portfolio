@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
     return (
-        <footer className=" py-8">
+        <footer className="bg-bg text-white py-8">
             <div className="container mx-auto  ">
                 <div class="text-cener w-full grid grid-cols-2 md:grid-cols-4  gap-10 flex-col md:flex-row">
                     <div class="">
@@ -76,18 +76,14 @@ const Footer = () => {
                                 href="#"
                                 className=" hover:text-white flex items-center mb-3"
                             >
-                                <FaFacebook
-                       className="size-6 mr-2"
-                                />
+                                <FaFacebook className="size-6 mr-2" />
                                 Facebook
                             </a>
                             <a
                                 href="#"
                                 className=" hover:text-white flex items-center mb-3"
                             >
-                                <FaTwitter
-                      className="size-6 mr-2"
-                                />
+                                <FaTwitter className="size-6 mr-2" />
                                 Twitter
                             </a>
                             <a

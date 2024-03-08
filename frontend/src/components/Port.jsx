@@ -3,8 +3,8 @@ import React from "react";
 const App = ({ prjt }) => {
     return (
         <>
-            <div className="shadow-xl shadow-black rounded-xl bg-gray-700 p-4 overflow-hidden ">
-                <div class="bg-amber-400">
+            <div className="bg-gray-700 shadow-md shadow-gray-600 rounded-xl text-white p-4 overflow-hidden ">
+                <div class="">
                     {" "}
                     <img
                         class="bg-cover"
@@ -12,7 +12,7 @@ const App = ({ prjt }) => {
                     />
                 </div>
                 <div class="text-center">
-                    <p class="pt-4 text-md font-semibold text-third">
+                    <p class="pt-4 text-md font-bold text-third">
                         {prjt.name}
                     </p>
                     <p class="pt-4 text-sm">

@@ -107,7 +107,7 @@ const Form = () => {
                                 error.username
                                     ? "border-red-500"
                                     : "border-white"
-                            } text-white border-b bg-gray-900 rounded-xl focus:border-yellow-400 focus:outline-none px-2 py-1 w-full `}
+                            } text-white border-b-2 bg-transparent rounded-x focus:border-yellow-400 focus:outline-none px-2 py-1 w-full `}
                         />
                     </label>
                     <p className="text-red-500 text-[12px]">
@@ -131,7 +131,7 @@ const Form = () => {
                                 error.email
                                     ? "border-red-500"
                                     : "border-white "
-                            } text-white rounded-xl border-b bg-gray-900 focus:border-yellow-400 focus:outline-none px-2 py-1 w-full `}
+                            } text-white  border-b-2 bg-transparent focus:border-yellow-400 focus:outline-none px-2 py-1 w-full `}
                         />
                     </label>
                     <p className="text-red-500 text-[12px]">
@@ -139,20 +139,25 @@ const Form = () => {
                     </p>
                 </div>
                 <div className="">
-                    <textarea
-                        name="message"
-                        value={
-                            formData.message
-                        }
-                        onChange={
-                            handleChange
-                        }
-                        className="text-white w-full p-3 rounded-xl outline-none bg-gray-900"
-                        placeholder="Your message"
-                    />
-                    <p className="text-red-500 text-[12px]">
-                        {error.message}
-                    </p>
+                    <label>
+                        Message
+                        <textarea
+                            name="message"
+                            value={
+                                formData.message
+                            }
+                            onChange={
+                                handleChange
+                            }
+                            className="mt-4 text-white w-full p-3  outline-none bg-transparent border-b-2"
+                            placeholder="Your message"
+                        />
+                        <p className="text-red-500 text-[12px]">
+                            {
+                                error.message
+                            }
+                        </p>
+                    </label>
                 </div>
                 <div className="text-center">
                     <button

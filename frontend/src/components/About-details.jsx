@@ -1,40 +1,94 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 
-const App = ()=>{
-  
-  const [show,setShow]=useState(1);
-  
-  return (
-    <>
-    
-    
-      <div className='hidden text-center text-md font-semibold space-x-8 mt-8'>
-        <button className={`${show==1 ? 'thistry' : ''} border px-3 py-1 rounded-xl`} onClick={()=>{setShow(1)}}>Education</button>
-        <button className={`${show==2 ? 'thistry' : ''}`} onClick={()=>{setShow(2)}}>Technologies</button>
-        <button className={`${show==3 ? 'thistry' : ''}`} onClick={()=>{setShow(3)}}>Experience</button>                 
-      </div>
-      {
-      <div className='hidden text-center mt-8 border rounded-xl p-8 text-white bg-primary-light shadow'>
-        {show==1 && (
-           <div className='space-y-4  text-left'>
-              <p className='text-lg font-medium'>B.E, Mechanical Engineering</p>
-              <p className=''>2018-2022</p>
-              <p className='text-md'>Mailam engineering college, Anna University</p>
-           </div>
-        )}
-        {show==2 && (
-           <div className='space-y-4 text-left'>
-              <p className='text-lg font-medium'>Frontend technologies</p>
-              <p className=''>HTML, Reactjs, Tailwindcss</p>
-              <p className='text-lg font-medium'>Backend technologies</p>
-              <p className=''>Nodejs, Mongodb</p>
-           </div>
-        )}        
-       </div>
-      }
-      
-      
-      {/*
+const App = () => {
+    const [show, setShow] = useState(1);
+
+    return (
+        <>
+            <div className=" text-center text-md font-semibold space-x-8 mt-8">
+                <button
+                    className={`${
+                        show == 1
+                            ? "thistry"
+                            : ""
+                    } border px-3 py-1 rounded-xl`}
+                    onClick={() => {
+                        setShow(1);
+                    }}
+                >
+                    Education
+                </button>
+                <button
+                    className={`${
+                        show == 2
+                            ? "thistry"
+                            : ""
+                    }`}
+                    onClick={() => {
+                        setShow(2);
+                    }}
+                >
+                    Technologies
+                </button>
+                <button
+                    className={`${
+                        show == 3
+                            ? "thistry"
+                            : ""
+                    }`}
+                    onClick={() => {
+                        setShow(3);
+                    }}
+                >
+                    Experience
+                </button>
+            </div>
+            {
+                <div className="text-center mt-8 border rounded-xl p-8 text-white bg-primary-light shadow">
+                    {show == 1 && (
+                        <div className="space-y-4  text-left">
+                            <p className="text-lg font-medium">
+                                B.E,
+                                Mechanical
+                                Engineering
+                            </p>
+                            <p className="">
+                                2018-2022
+                            </p>
+                            <p className="text-md">
+                                Mailam
+                                engineering
+                                college,
+                                Anna
+                                University
+                            </p>
+                        </div>
+                    )}
+                    {show == 2 && (
+                        <div className="space-y-4 text-left">
+                            <p className="text-lg font-medium">
+                                Frontend
+                                technologies
+                            </p>
+                            <p className="">
+                                HTML,
+                                Reactjs,
+                                Tailwindcss
+                            </p>
+                            <p className="text-lg font-medium">
+                                Backend
+                                technologies
+                            </p>
+                            <p className="">
+                                Nodejs,
+                                Mongodb
+                            </p>
+                        </div>
+                    )}
+                </div>
+            }
+
+            {/*
       
       <div className='flex flex-col md:flex-row md:justify-center gap-8 mt-8'>
       
@@ -73,8 +127,8 @@ const App = ()=>{
        </div>
       </div>
       */}
-    </>
-  );
+        </>
+    );
 };
 
 export default App;

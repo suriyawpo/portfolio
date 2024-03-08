@@ -8,8 +8,8 @@ import {
 
 const App = () => {
     return (
-        <div class="">
-            <div class="container py-8 text-white">
+        <div class=" bg-gray-800 text-white">
+            <div class="container  py-8 ">
                 <p class="capitalize text-2xl text-center font-bold">
                     what i{" "}
                     <span class="text-third">
@@ -26,26 +26,26 @@ const App = () => {
                     necessitatibus
                     minima totam atque
                 </p>
-                <div class="mt-4 grid grid-cols-1 gap-6 md:grid-cols-3">
+                <div class="text-whit mt-4 grid grid-cols-1 gap-6 md:grid-cols-3">
                     {" "}
-                    <div className=" shadow-md shadow-black bg-gray-700 p-8  rounded-xl overflow-hidden ">
+                    <div className=" shadow-md shadow-black bg-text p-8  rounded-xl overflow-hidden ">
                         <div class="">
                             {" "}
                             <PiPaintBrush class="size-20 mx-auto" />
                         </div>
                         <div class="text-center mt-8">
-                            <p class="mt-4 text-lg font-semibold text-third">
+                            <p class="mt-4 text-lg text-third font-semibold ">
                                 Web
                                 Design
                             </p>
-                            <p class="text-sm mt-1">
+                            <p class="text-sm  mt-1">
                                 i do
                                 website
                                 designing
                             </p>
                         </div>
                     </div>{" "}
-                    <div className=" shadow-md shadow-black bg-gray-700 p-8 rounded-xl overflow-hidden ">
+                    <div className=" shadow-md shadow-black bg-text p-8 rounded-xl overflow-hidden ">
                         <div class="">
                             {" "}
                             <MdOutlineDisplaySettings class="size-20 mx-auto" />
@@ -62,7 +62,7 @@ const App = () => {
                             </p>
                         </div>
                     </div>{" "}
-                    <div className="flex-1 shadow-md shadow-black bg-gray-700 p-8 rounded-xl overflow-hidden ">
+                    <div className="flex-1 shadow-md shadow-black bg-text p-8 rounded-xl overflow-hidden ">
                         <div class="">
                             {" "}
                             <PiComputerTower class="size-20 mx-auto" />
