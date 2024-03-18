@@ -94,7 +94,7 @@ const Navbar = () => {
                     </div>
 
                     <button
-                        className="text-black border rounded w-fit md:hidden fixed right-8"
+                        className="text-black border rounded w-fit md:hidden z-20 fixed right-8"
                         onClick={
                             openMenu
                         }
@@ -121,15 +121,15 @@ const Navbar = () => {
             </div>
 
             <div
-                className={`fixed flex w-full h-dvh top-0  transition-all duration-300 ${
+                className={`fixed flex w-full z-20 h-dvh top-0  transition-all duration-300 ${
                     menu
                         ? "right-0 opacity-1"
                         : "right-full opacity-0"
                 }`}
             >
-                <div className="bg-bg text-white w-2/3 ">
+                <div className="bg-bgblk text-white w-2/3 ">
                     <div
-                        className="bg-primary w-full h-16 relative"
+                        className="w-full h-16 relative"
                         onClick={
                             openMenu
                         }
@@ -153,7 +153,7 @@ const Navbar = () => {
                             </svg>
                         </button>
                     </div>
-                    <div className="flex flex-col mt-8 space-y-6 capitalize text-left px-8">
+                    <div className=" flex flex-col mt-8 space-y-6 capitalize text-left px-8">
                         <a
                             className={`${
                                 show ==

@@ -14,10 +14,11 @@ export default {
                 cookie: ["Cookie"]
             },
             colors: {
-                bgblk: "#001F3F",
-                bgblu: "#1f242d",
-                cd1: "#374151",
-                cd2: "#001F50",
+                bgblu: "#001F3F",
+                bgblk: "#1f242d",
+                bgh: "#101010",
+                cd2: "#191919",
+                cd1: "#001F50",
                 third: "lime"
             },
             container: {
