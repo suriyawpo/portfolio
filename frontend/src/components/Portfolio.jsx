@@ -47,7 +47,7 @@ const App = () => {
                         creativity,
                         professionalism,
                         and attention to
-                        detail. I invite
+                        detail. <br /> I invite
                         you to explore
                         my portfolio.
                     </p>

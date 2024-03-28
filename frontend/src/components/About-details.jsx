@@ -17,13 +17,13 @@ const App = () => {
     return (
         <>
             <div className=" text-center text-md font-semibold space-x-6 ">
-                <div                     id="skills" class="border w-3/4 mx-auto my-4"></div>
+                <div                     id="skills" class="border w-3/4 mx-auto my-4 xl:my-12"></div>
                 <button
                     className={`${
                         show == 1
                             ? "bg-third"
                             : ""
-                    } px-3 py-1 rounded-md border`}
+                    } px-4 py-2 rounded-md border`}
                     onClick={() => {
                         setShow(1);
                     }}
@@ -36,7 +36,7 @@ const App = () => {
                         show == 2
                             ? "bg-third"
                             : ""
-                    } px-3 py-1 rounded-md border`}
+                    } px-4 py-2 rounded-md border`}
                     onClick={() => {
                         setShow(2);
                     }}
@@ -48,7 +48,7 @@ const App = () => {
                         show == 3
                             ? "bg-third"
                             : ""
-                    } px-3 py-1 rounded-md border mt-4 md:mt-0`}
+                    } px-4 py-2 rounded-md border mt-4 md:mt-0`}
                     onClick={() => {
                         setShow(3);
                     }}
@@ -64,7 +64,7 @@ const App = () => {
                 </button>
             </div>
             {
-                <div className="text-center mt-6 border rounded-xl p-4 text-white bg-cd1 shadow">
+                <div className="text-center mt-6 border rounded-xl p-6 text-white bg-cd1 shadow">
                     {show == 1 && (
                         <div className="  ">
                             <FaGraduationCap className="text-7xl text-white mx-auto mb-6" />
@@ -90,7 +90,7 @@ const App = () => {
                     {show == 2 && (
                         <div className="flex  gap-12 justify-between flex-col bg-cd1 md:flex-row">
                             <div class="flex-1">
-                                <p class="text-xl font-medium mb-4 text-third">
+                                <p class="text-xl font-medium mb-4 ">
                                     Frontend
                                     Technologies
                                 </p>
@@ -169,7 +169,7 @@ const App = () => {
                                 </div>
                             </div>
                             <div class="flex-1">
-                                <p class="text-xl font-medium mb-4 text-third">
+                                <p class="text-xl font-medium mb-4 ">
                                     Backend
                                     Technologies
                                 </p>
@@ -228,7 +228,7 @@ const App = () => {
                                     img
                                 }
                                 alt=""
-                                class=""
+                                class="size-96 mx-auto"
                             />
                         </div>
                     )}
