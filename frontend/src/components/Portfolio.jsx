@@ -51,7 +51,7 @@ const App = () => {
                         you to explore
                         my portfolio.
                     </p>
-                    <div className="mt-2 grid grid-cols-1 gap-6 md:grid-cols-2">
+                    <div className="mt-2 grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
                         {project.map(
                             (
                                 element,

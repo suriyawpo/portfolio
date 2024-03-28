@@ -110,7 +110,7 @@ const Form = () => {
                             } text-white border-b-2 bg-transparent rounded-x focus:border-yellow-400 focus:outline-none px-2 py-1 w-full `}
                         />
                     </label>
-                    <p className="text-red-500 text-[12px]">
+                    <p className="text-red-500 text-[12px] xl:text-sm">
                         {error.username}
                     </p>
                 </div>
@@ -134,7 +134,7 @@ const Form = () => {
                             } text-white  border-b-2 bg-transparent focus:border-yellow-400 focus:outline-none px-2 py-1 w-full `}
                         />
                     </label>
-                    <p className="text-red-500 text-[12px]">
+                    <p className="text-red-500 text-[12px] xl:text-sm">
                         {error.email}
                     </p>
                 </div>
@@ -152,7 +152,7 @@ const Form = () => {
                             className="mt-4 text-white w-full p-3  outline-none bg-transparent border-b-2"
                             placeholder="Your message"
                         />
-                        <p className="text-red-500 text-[12px]">
+                        <p className="text-red-500 text-[12px] xl:text-sm">
                             {
                                 error.message
                             }

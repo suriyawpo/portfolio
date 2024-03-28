@@ -42,8 +42,8 @@ const App = () => {
                                 }
                             />
                         </div>
-                        <div className="flex-1 ">
-                            <div class=" font-bold font-cookie text-3xl ">
+                        <div className="flex-1 xl:mt-24">
+                            <div class=" font-bold font-cookie text-3xl xl:text-4xl">
                                 <h4 className="mt-4">
                                     A
                                     Little{" "}

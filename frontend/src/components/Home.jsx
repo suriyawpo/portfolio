@@ -22,15 +22,15 @@ const Home = () => {
                 <Navbar />
                 <div
                     id="home"
-                    className="h-[550px] container  flex gap-16 flex-col items-center justify-center -z-4"
+                    className="h-[550px] container  flex gap-24 flex-col items-center justify-center -z-4"
                 >
                     <div className=" order-3 text-center md:w-1/2">
-                        <p className="text-3xl font-medium text-third py-2 font-cooki">
+                        <p className="text-3xl font-medium text-third  xl:text-5xl">
                             Fullstack
                             Web
                             Developer
                         </p>
-                        <p className="">
+                        <p className="py-4">
                             I will
                             design and
                             develop your
@@ -41,7 +41,7 @@ const Home = () => {
                             stack.
                         </p>
                         <button
-                            className={`btn bg-third `}
+                            className={`px-4 py-2 bg-third text-white rounded-md `}
                             onClick={
                                 handleClick
                             }
@@ -55,7 +55,7 @@ const Home = () => {
                             alt=""
                             class="size-24 mx-auto"
                         />
-                        <p className="mt-2 text-3xl  font-medium text-white font-cookie ">
+                        <p className="mt-2 text-3xl  font-medium text-white font-cookie  xl:text-5xl">
                             Hey! I am{" "}
                             <span className="text-third">
                                 Suriya
