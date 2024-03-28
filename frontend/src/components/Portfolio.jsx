@@ -30,26 +30,28 @@ const App = () => {
 
     return (
         <>
-            <div className=" text-white">
-                <div className="container py-16">
-                    <p className="text-2xl font-bold text-center">
+            <div
+                id="portfolio"
+                className="bg-cd2 text-white"
+            >
+                <div className="contain py-16">
+                    <p className="text-3xl font-bold text-center">
                         My{" "}
-                        <span className="text-third">
+                        <span className="text-third ">
                             Portfolio
                         </span>
                     </p>
                     <p class="py-8 w-full mx-auto text-center md:w-3/4">
-                        Lorem ipsum
-                        dolor sit amet,
-                        consectetur
-                        adipisicing hgf
-                        jdonds hxdincs
-                        jvxdrjn gcxv
-                        Consequatur
-                        alias, dicta
-                        aspernatur.
+                        I approach each
+                        project with
+                        creativity,
+                        professionalism,
+                        and attention to
+                        detail. I invite
+                        you to explore
+                        my portfolio.
                     </p>
-                    <div className="mt-2 grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <div className="mt-2 grid grid-cols-1 gap-6 md:grid-cols-2">
                         {project.map(
                             (
                                 element,

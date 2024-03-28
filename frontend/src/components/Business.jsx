@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
     return (
-        <div class="bg-lime-600 text-white">
+        <div class="bg-third text-white">
             <div class="container py-28 text-center">
                 <p class="capitalize text-3xl font-bold text-center">
                     take your business

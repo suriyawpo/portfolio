@@ -8,74 +8,83 @@ import {
 
 const App = () => {
     return (
-        <div class="  text-white">
-            <div class="container  py-8 ">
-                <p class="capitalize text-2xl text-center font-bold">
+        <div class=" bg-cd2 text-white">
+            <div class="contain   ">
+                <p class="capitalize text-3xl text-center font-bold">
                     what i{" "}
                     <span class="text-third">
                         Do
                     </span>
                 </p>
                 <p class="md:w-3/4 mx-auto text-center py-6">
-                    Lorem ipsum dolor
-                    sit amet,
-                    consectetur
-                    adipisicing elit.
-                    Eos aliquam quam
-                    praesentium
-                    necessitatibus
-                    minima totam atque
+                    I strive to deliver
+                    innovative solutions
+                    that exceed
+                    expectations and
+                    <span class="br"></span>{" "}
+                    leave a lasting
+                    impression on users.
                 </p>
                 <div class=" mt-4 grid grid-cols-1 gap-6 md:grid-cols-3">
                     {" "}
-                    <div className=" shadow-md shadow-black bg-cd2 p-8  rounded-xl overflow-hidden ">
+                    <div className=" shadow-md shadow-black bg-cd1 p-4  rounded-xl overflow-hidden ">
                         <div class="">
                             {" "}
-                            <PiPaintBrush class="size-20 mx-auto" />
+                            <PiPaintBrush class="size-20 mx-auto text-third" />
                         </div>
                         <div class="text-center mt-8">
-                            <p class="mt-4 text-lg text-third font-semibold ">
+                            <p class="mt-4 text-xl text-thir font-semibold ">
                                 Web
                                 Design
                             </p>
-                            <p class="text-sm  mt-1">
-                                i do
-                                website
-                                designing
+                            <p class="mt-2">
+                                Crafting
+                                intuitive
+                                interfaces
+                                for
+                                seamless
+                                user
+                                experiences.
                             </p>
                         </div>
                     </div>{" "}
-                    <div className=" shadow-md shadow-black bg-cd2 p-8 rounded-xl overflow-hidden ">
+                    <div className=" shadow-md shadow-black bg-cd1 p-4 rounded-xl overflow-hidden ">
                         <div class="">
                             {" "}
-                            <MdOutlineDisplaySettings class="size-20 mx-auto" />
+                            <MdOutlineDisplaySettings class="size-20 mx-auto text-third" />
                         </div>
                         <div class="text-center mt-8">
-                            <p class="mt-4 text-lg font-semibold text-third">
+                            <p class="mt-4 text-xl font-semibold ">
                                 Frontend
                                 Development
                             </p>
-                            <p class="text-sm mt-1">
-                                i do
-                                website
-                                designing
+                            <p class=" mt-2">
+                                Building
+                                engaging
+                                web
+                                interfaces
+                                with
+                                modern
+                                technologies
+                                and
+                                responsive
+                                design
+                                principles.
                             </p>
                         </div>
                     </div>{" "}
-                    <div className="flex-1 shadow-md shadow-black bg-cd2 p-8 rounded-xl overflow-hidden ">
+                    <div className="flex-1 shadow-md shadow-black bg-cd1 p-4 rounded-xl overflow-hidden ">
                         <div class="">
                             {" "}
-                            <PiComputerTower class="size-20 mx-auto" />
+                            <PiComputerTower class="size-20 mx-auto text-third" />
                         </div>
                         <div class="text-center mt-8">
-                            <p class="mt-4 text-lg font-semibold text-third">
+                            <p class="mt-4 text-xl font-semibold ">
                                 Backend
                                 Development{" "}
                             </p>
-                            <p class="text-sm mt-1">
-                                i do
-                                website
-                                designing
+                            <p class="text- mt-2">
+                          Implementing robust server-side solutions for data management and system functionality."
                             </p>
                         </div>
                     </div>{" "}

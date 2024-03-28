@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Img from "./assets/boy2.png";
+import Navbar from "./Navbar.jsx";
+import img from "./assets/boy-2026700_1280.png";
 
 const Home = () => {
     const [
@@ -17,36 +18,27 @@ const Home = () => {
 
     return (
         <>
-            <section className=" relative text-white">
-                <div class="hidden absolute right-[50%] bottom-[30%] blur-3xl  rounded-full size-24 bg-lime-400"></div>
+            <section className=" relative text-white ">
+                <Navbar />
                 <div
                     id="home"
-                    className="md:h-[460px] container  flex items-center flex-col gap-8   md:flex-row justify-around md:items-center -z-4"
+                    className="h-[550px] container  flex gap-16 flex-col items-center justify-center -z-4"
                 >
-                    <div className=" space-y-6 flex-1 py-12 ">
-                        <p className="text-xl  font-medium text-third">
-                            Welcome{" "}
-                            <span className="text-white">
-                                to my
-                                freelance
-                                hub!
-                            </span>
-                        </p>
-                        <p className="text-3xl font-medium ">
-                            I am{" "}
-                            <span className="text-third">
-                                Suriya
-                            </span>
-                            , web
-                            developer
+                    <div className=" order-3 text-center md:w-1/2">
+                        <p className="text-3xl font-medium text-third py-2 font-cooki">
+                            Fullstack
+                            Web
+                            Developer
                         </p>
                         <p className="">
-                            Come and
-                            join with me
-                            to create
-                            your ideas
-                            into
-                            design...
+                            I will
+                            design and
+                            develop your
+                            ideas into
+                            stunning
+                            websites
+                            using mern
+                            stack.
                         </p>
                         <button
                             className={`btn bg-third `}
@@ -54,15 +46,21 @@ const Home = () => {
                                 handleClick
                             }
                         >
-                            Hire me
+                            Get Started
                         </button>
                     </div>
-                    <div className="flex-1">
+                    <div className="order-1 text-center">
                         <img
-                            className=" mx-auto  "
-                            src={Img}
-                            alt="Profile"
+                            src={img}
+                            alt=""
+                            class="size-24 mx-auto"
                         />
+                        <p className="mt-2 text-3xl  font-medium text-white font-cookie ">
+                            Hey! I am{" "}
+                            <span className="text-third">
+                                Suriya
+                            </span>
+                        </p>
                     </div>
                 </div>
             </section>

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/1.png";
+import { FiArrowUpCircle } from "react-icons/fi";
 import {
     MdEmail,
     MdAddIcCall
@@ -13,31 +14,34 @@ import {
 
 const Footer = () => {
     return (
-        <footer className=" text-white py-8">
-            <div className="container mx-auto  ">
-                <div class="text-cener w-full grid grid-cols-2 md:grid-cols-4  gap-10 flex-col md:flex-row">
+        <footer className=" text-white ">
+            <div className="contain mx-auto  ">
+                <div class="text-cener w-full grid grid-cols-2 md:grid-cols-3  gap-10 flex-col md:flex-row">
                     <div class="">
                         <div className="  text-4xl font-bold">
-                            <span className="">
-                                Portfo
-                            </span>
-                            <span className="text-third">
-                                lio
-                            </span>
+                            <p class="text-4xl text-third text-semibold font-cookie">
+                                SW
+                            </p>
                         </div>
                         <p className="text-lg font-normal mb-4"></p>
                         <p className="text-sm  mb-4">
-                            Explore the
-                            World with
-                            Tourism.
-                            Your gateway
-                            to
-                            unforgettable
-                            experiences.
+                            Get in touch
+                            with us
+                            today to
+                            discover how
+                            I can bring
+                            your vision
+                            to life.{" "}
                         </p>
+                        <div class="hidden">
+                            <FiArrowUpCircle class="text-5xl text-third mx-auto" />
+                            <p class="text-center mt-2">
+                                up
+                            </p>
+                        </div>
                     </div>
                     <div className="flex flex-col ">
-                        <p class="text-lg  font-bold mb-6">
+                        <p class="text-lg text-third font-bold mb-6">
                             Links
                         </p>
                         <div className="flex flex-col  text-sm ">
@@ -68,8 +72,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex flex-col ">
-                        <p class="text-lg font-bold mb-6">
-                            Follow us on
+                        <p class="text-lg text-third font-bold mb-6">
+                            Follow me on
                         </p>
                         <div className=" text-sm ">
                             <a
@@ -79,13 +83,7 @@ const Footer = () => {
                                 <FaFacebook className="size-6 mr-2" />
                                 Facebook
                             </a>
-                            <a
-                                href="#"
-                                className=" hover:text-white flex items-center mb-3"
-                            >
-                                <FaTwitter className="size-6 mr-2" />
-                                Twitter
-                            </a>
+
                             <a
                                 href="#"
                                 className=" hover:text-white flex items-center mb-3"
@@ -102,26 +100,9 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="text-sm ">
-                        <p className="mb-6 font-bold text-lg">
-                            Contact Us
-                        </p>
-                        <div className="flex items-center gap-3 mb-3">
-                            <MdEmail className="size-6 " />
-                            <p className="">
-                                7Up@gmail.com
-                            </p>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <MdAddIcCall className="size-6" />
-                            <p className="">
-                                +61-93045672
-                            </p>
-                        </div>
-                    </div>
                 </div>
                 <p className="text-sm mt-6 text-center">
-                    &copy; 2024 7Up. All
+                    &copy; 2024 sw. All
                     rights reserved.
                 </p>
             </div>

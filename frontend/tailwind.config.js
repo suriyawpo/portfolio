@@ -18,8 +18,8 @@ export default {
                 bgblk: "#1f242d",
                 bgh: "#101010",
                 cd2: "#191919",
-                cd1: "#001F50",
-                third: "lime"
+                cd1: "#262626",
+                third: "#00ffff"
             },
             container: {
                 center: true,

@@ -1,26 +1,50 @@
 import React from "react";
-import Img from "./assets/1.png";
+import Img from "./assets/IMG_20240327_194414.jpg";
 import AboutDetails from "./About-details";
 const App = () => {
     return (
         <>
             <section
                 id="about"
-                className="bg-cd2  text-white   py-16"
+                className="  text-white"
             >
-                <div className=" container  mx-auto ">
-                    <div className="flex gap-16 flex-col md:justify-between md:items-center md:flex-row">
-                        <div className="   rounded-xl  flex-1">
+                <div className=" contain mx-auto ">
+                    <p class="text-3xl font-bold  text-center mb-6">
+                        My{" "}
+                        <span class="text-third">
+                            Profile
+                        </span>
+                    </p>
+                    <div className="flex gap-16 flex-col md:justify-between md:items-cente md:flex-row">
+                        <div className="   rounded-xl  flex-1 relative">
+                            <div
+                                style={{
+                                    backgroundImage:
+                                        "linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2))"
+                                }}
+                                className="absolute top-0 left-0   w-full text-white px-6 py-2"
+                            >
+                                <p class="capitalize text-6xl text-third font-cookie text-center p-2 md:p-4">
+                                    do
+                                    what
+                                    you
+                                    love,
+                                    love
+                                    what
+                                    you
+                                    do
+                                </p>
+                            </div>
                             <img
-                                className=""
+                                className="rounded-xl"
                                 src={
                                     Img
                                 }
                             />
                         </div>
                         <div className="flex-1 ">
-                            <div class=" font-bold text-xl ">
-                                <h4 className="">
+                            <div class=" font-bold font-cookie text-3xl ">
+                                <h4 className="mt-4">
                                     A
                                     Little{" "}
                                     <span className="text-third">
@@ -29,7 +53,7 @@ const App = () => {
                                     Me
                                 </h4>
                             </div>
-                            <p className="mt-6 text-justify indent-8">
+                            <p className="mt-2 text-justify indent-8">
                                 {" "}
                                 I am a
                                 passionate
@@ -62,13 +86,14 @@ const App = () => {
                                 experience.
                             </p>
                             <button
-                                className={`btn bg-third text-white`}
+                                className={`btn  text-white border hidden`}
                             >
-                                Read
-                                more
+                                Download
+                                My
+                                Resume
                             </button>
                             {
-                                //<AboutDetails />
+                                <AboutDetails />
                             }
                         </div>
                     </div>

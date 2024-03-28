@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Business from "./components/Business";
@@ -11,15 +10,12 @@ import Img from "./components/assets/ss.jpg";
 const App = () => {
     return (
         <>
-            <div className="font-inter tracking-wide bg-bgh  text-black">
-                <Navbar />
+            <div className="font-inter tracking-wide bg-bgh scroll-smooth">
                 <Home />
-                <About />
                 <Skills />
-                <Business />
+                <About />
 
                 <Portfolio />
-
                 <Contact />
                 <Footer />
             </div>

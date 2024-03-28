@@ -85,10 +85,10 @@ const Form = () => {
         } else return;
     };
     return (
-        <div className="font-medium">
+        <div className="">
             <form
                 onSubmit={handlesubmit}
-                className="space-y-6 "
+                className="space-y-12 "
             >
                 <div className="">
                     <label className="">

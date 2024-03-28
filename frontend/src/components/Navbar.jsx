@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import img from "./assets/IMG_20240327_141347.png";
 const Navbar = () => {
     const [menu, setMenu] =
         useState(false);
@@ -9,16 +9,13 @@ const Navbar = () => {
     };
 
     return (
-        <div className=" text-white">
-            <div className="container pt-4   ">
-                <nav className=" flex justify-between items-center">
+        <div className="fixe w-full text-white">
+            <div className=" py-2 px-4 md:px-16">
+                <nav className=" flex justify-between items-center ">
                     <div className=" text-4xl font-bold">
-                        <span className="">
-                            Portfo
-                        </span>
-                        <span className="text-third">
-                            lio
-                        </span>
+                        <p class="text-4xl text-third text-semibold font-cookie">
+                            SW
+                        </p>
                     </div>
                     <div className=" hidden font-medium md:flex md:flex-row items-center space-x-8 capitalize text-left">
                         <a
@@ -33,7 +30,7 @@ const Navbar = () => {
                                     1
                                 );
                             }}
-                            href="#"
+                            href="#home"
                         >
                             home
                         </a>
@@ -49,7 +46,7 @@ const Navbar = () => {
                                     2
                                 );
                             }}
-                            href="#"
+                            href="#about"
                         >
                             about me
                         </a>
@@ -65,36 +62,46 @@ const Navbar = () => {
                                     3
                                 );
                             }}
-                            href="#"
+                            href="#skills"
+                        >
+                            skills
+                        </a>
+                        <a
+                            className={`${
+                                show ==
+                                4
+                                    ? "text-third"
+                                    : ""
+                            }`}
+                            onClick={() => {
+                                setShow(
+                                    4
+                                );
+                            }}
+                            href="#portfolio"
                         >
                             portfolio
                         </a>
                         <a
                             className={`${
                                 show ==
-                                3
+                                5
                                     ? "text-third"
                                     : ""
-                            }`}
+                            } btn border-2 rounded-xl`}
                             onClick={() => {
                                 setShow(
-                                    3
+                                    5
                                 );
                             }}
-                            href="#"
-                        >
-                            skills
-                        </a>
-                        <a
-                            className="btn border-2 rounded-xl"
-                            href="#"
+                            href="#contact"
                         >
                             Contact Me
                         </a>
                     </div>
 
                     <button
-                        className="text-black border rounded w-fit md:hidden z-20 fixed right-8"
+                        className="text-third border rounded w-fit md:hidden z-20 fixed right-8"
                         onClick={
                             openMenu
                         }
@@ -107,7 +114,7 @@ const Navbar = () => {
                                 1.5
                             }
                             stroke="currentColor"
-                            className="size-7 bg-white stroke-2"
+                            className="size-8 bg-white stroke-2"
                         >
                             {" "}
                             <path
@@ -127,7 +134,7 @@ const Navbar = () => {
                         : "right-full opacity-0"
                 }`}
             >
-                <div className="bg-bgblk text-white w-2/3 ">
+                <div className="bg-cd2 text-white w-2/3 ">
                     <div
                         className="w-full h-16 relative"
                         onClick={
@@ -191,7 +198,7 @@ const Navbar = () => {
                         <a
                             className={`${
                                 show ==
-                                8
+                                3
                                     ? "text-third"
                                     : ""
                             }`}
@@ -201,9 +208,9 @@ const Navbar = () => {
                                 );
                                 openMenu();
                             }}
-                            href="#/*  */"
+                            href="#skills"
                         >
-                            services
+                            Skills
                         </a>
                         <a
                             className={`${
@@ -215,6 +222,23 @@ const Navbar = () => {
                             onClick={() => {
                                 setShow(
                                     4
+                                );
+                                openMenu();
+                            }}
+                            href="#portfolio"
+                        >
+                            My Portfolio
+                        </a>
+                        <a
+                            className={`${
+                                show ==
+                                5
+                                    ? "text-third"
+                                    : ""
+                            } px-3 py-1 rounded-md border text-center mt-6`}
+                            onClick={() => {
+                                setShow(
+                                    5
                                 );
                                 openMenu();
                             }}
