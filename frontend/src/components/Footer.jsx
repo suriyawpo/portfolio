@@ -102,7 +102,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className="text-sm mt-6 text-center">
-                    &copy; 2024 sw. All
+                    &copy; 2024 <span className="font-cookie text-3xl">sw.</span> All
                     rights reserved.
                 </p>
             </div>

@@ -10,7 +10,7 @@ import Img from "./components/assets/ss.jpg";
 const App = () => {
     return (
         <>
-            <div className="font-inter tracking-wide bg-bgh scroll-smooth">
+            <div className="font-inter tracking-wide bg-bgh scroll-smooth text-[16px] sm:text[17px] xl:text-[18px]">
                 <Home />
                 <Skills />
                 <About />

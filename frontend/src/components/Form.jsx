@@ -161,7 +161,7 @@ const Form = () => {
                 </div>
                 <div className="text-center">
                     <button
-                        className="px-8 py-2 rounded-lg bg-third"
+                        className="px-8 py-2 border hover:bg-transparent rounded-md font-medium bg-third "
                         type="submit"
                     >
                         Send

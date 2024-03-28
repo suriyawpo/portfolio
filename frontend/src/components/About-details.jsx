@@ -26,7 +26,7 @@ const App = () => {
                         show == 1
                             ? "bg-third"
                             : ""
-                    } px-4 py-2 rounded-md border`}
+                    } px-4 py-2 rounded-md border hover:bg-third`}
                     onClick={() => {
                         setShow(1);
                     }}
@@ -38,7 +38,7 @@ const App = () => {
                         show == 2
                             ? "bg-third"
                             : ""
-                    } px-4 py-2 rounded-md border`}
+                    } px-4 py-2 rounded-md border hover:bg-third`}
                     onClick={() => {
                         setShow(2);
                     }}
@@ -50,7 +50,7 @@ const App = () => {
                         show == 3
                             ? "bg-third"
                             : ""
-                    } px-4 py-2 rounded-md border mt-4 md:mt-0`}
+                    } px-4 py-2 rounded-md border hover:bg-third mt-4  md:mt-0`}
                     onClick={() => {
                         setShow(3);
                     }}

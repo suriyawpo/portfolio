@@ -41,7 +41,7 @@ const Home = () => {
                             stack.
                         </p>
                         <button
-                            className={`px-4 py-2 bg-third text-white rounded-md `}
+                            className={`btn bg-third `}
                             onClick={
                                 handleClick
                             }
