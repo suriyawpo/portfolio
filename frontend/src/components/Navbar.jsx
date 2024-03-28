@@ -10,10 +10,10 @@ const Navbar = () => {
 
     return (
         <div className="fixe w-full text-white">
-            <div className=" py-2 px-4 md:px-16">
+            <div className=" py-4 px-4 md:px-16">
                 <nav className=" flex justify-between items-center ">
                     <div className=" text-4xl font-bold">
-                        <p class="text-4xl text-third text-semibold font-cookie">
+                        <p class="text-4xl text-third text-semibold font-cookie xl:text-6xl">
                             SW
                         </p>
                     </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
                                 1
                                     ? "text-third"
                                     : ""
-                            }`}
+                            } hover:text-third`}
                             onClick={() => {
                                 setShow(
                                     1
@@ -40,7 +40,7 @@ const Navbar = () => {
                                 2
                                     ? "text-third"
                                     : ""
-                            }`}
+                            } hover:text-third`}
                             onClick={() => {
                                 setShow(
                                     2
@@ -56,7 +56,7 @@ const Navbar = () => {
                                 3
                                     ? "text-third"
                                     : ""
-                            }`}
+                            } hover:text-third`}
                             onClick={() => {
                                 setShow(
                                     3
@@ -72,7 +72,7 @@ const Navbar = () => {
                                 4
                                     ? "text-third"
                                     : ""
-                            }`}
+                            } hover:text-third`}
                             onClick={() => {
                                 setShow(
                                     4
@@ -88,7 +88,7 @@ const Navbar = () => {
                                 5
                                     ? "text-third"
                                     : ""
-                            } btn border-2 rounded-xl`}
+                            } btn border-2 rounded-xl hover:text-third`}
                             onClick={() => {
                                 setShow(
                                     5
@@ -136,12 +136,15 @@ const Navbar = () => {
             >
                 <div className="bg-cd2 text-white w-2/3 ">
                     <div
-                        className="w-full h-16 relative"
+                        className="w relative flex justify-between items-center px-8 my-8"
                         onClick={
                             openMenu
                         }
                     >
-                        <button className="absolute right-4 top-4 ">
+                        <p class="text-4xl text-third text-semibold font-cookie ">
+                            SW
+                        </p>
+                        <button className="bsolute right-4 top-4 ">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -160,7 +163,7 @@ const Navbar = () => {
                             </svg>
                         </button>
                     </div>
-                    <div className=" flex flex-col mt-8 space-y-6 capitalize text-left px-8">
+                    <div className=" flex flex-col mt-12 space-y-6 capitalize text-left px-8">
                         <a
                             className={`${
                                 show ==

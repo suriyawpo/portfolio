@@ -25,7 +25,7 @@ const App = () => {
                     leave a lasting
                     impression on users.
                 </p>
-                <div class=" mt-4 grid grid-cols-1 gap-4 md:grid-cols-3 xl:gap-6">
+                <div class=" mt-4 grid grid-cols-1 gap-4 md:grid-cols-3 xl:gap-12">
                     {" "}
                     <div className=" shadow-md shadow-black bg-cd1 p-4  rounded-xl overflow-hidden ">
                         <div class="">
