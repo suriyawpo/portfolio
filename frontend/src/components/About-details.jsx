@@ -16,8 +16,11 @@ const App = () => {
 
     return (
         <>
-            <div className=" text-center text-md font-semibold space-x-6 ">
-                <div                     id="skills" class="border w-3/4 mx-auto my-4 xl:my-12"></div>
+            <div className=" text-center text-md font-semibold space-x-4 ">
+                <div
+                    id="skills"
+                    class="border w-3/4 mx-auto my-4 xl:my-12"
+                ></div>
                 <button
                     className={`${
                         show == 1
@@ -31,7 +34,6 @@ const App = () => {
                     Education
                 </button>
                 <button
-
                     className={`${
                         show == 2
                             ? "bg-third"
