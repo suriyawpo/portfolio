@@ -15,8 +15,8 @@ const App = () => {
                             Profile
                         </span>
                     </p>
-                    <div className="flex  flex-col md:justify-between  lg:flex-row gap-12 xl:gap-28">
-                        <div className="   rounded-xl  xl:flex-[40%] relative md:flex-[50%]">
+                    <div className="flex gap-16 flex-col md:justify-between md:items-cente md:flex-row">
+                        <div className="   rounded-xl  flex-1 relative">
                             <div
                                 style={{
                                     backgroundImage:
@@ -25,24 +25,24 @@ const App = () => {
                                 className="absolute top-0 left-0   w-full text-white px-6 py-2"
                             >
                                 <p class="capitalize text-6xl text-third font-cookie text-center p-2 md:p-4">
-                                    "do
+                                    do
                                     what
                                     you
                                     love,
                                     love
                                     what
                                     you
-                                    do"
+                                    do
                                 </p>
                             </div>
                             <img
-                                className="rounded-xl  object-"
+                                className="rounded-xl"
                                 src={
                                     Img
                                 }
                             />
                         </div>
-                        <div className="xl:flex-[60%] md:flex-[50%]">
+                        <div className="flex-1 ">
                             <div class=" font-bold font-cookie text-3xl ">
                                 <h4 className="mt-4">
                                     A
