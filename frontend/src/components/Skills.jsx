@@ -21,11 +21,11 @@ const App = () => {
                     innovative solutions
                     that exceed
                     expectations and
-                    <br/>
+                    <br />
                     leave a lasting
                     impression on users.
                 </p>
-                <div class=" mt-4 grid grid-cols-1 gap-12 md:grid-cols-3">
+                <div class=" mt-4 grid grid-cols-1 gap-4 md:grid-cols-3 xl:gap-6">
                     {" "}
                     <div className=" shadow-md shadow-black bg-cd1 p-4  rounded-xl overflow-hidden ">
                         <div class="">
@@ -84,7 +84,15 @@ const App = () => {
                                 Development{" "}
                             </p>
                             <p class="text- mt-2">
-                          Implementing robust server-side solutions for data management and system functionality."
+                                Implementing
+                                robust
+                                server-side
+                                solutions
+                                for data
+                                management
+                                and
+                                system
+                                functionality."
                             </p>
                         </div>
                     </div>{" "}
