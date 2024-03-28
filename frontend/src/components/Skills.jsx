@@ -21,7 +21,7 @@ const App = () => {
                     innovative solutions
                     that exceed
                     expectations and
-                    <span class="br"></span>{" "}
+                    <br/>
                     leave a lasting
                     impression on users.
                 </p>
